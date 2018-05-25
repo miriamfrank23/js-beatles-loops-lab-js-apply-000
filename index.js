@@ -5,3 +5,11 @@ function theBeatlesPlay (array1, array2) {
   }
   return array3;
 }
+
+function johnLennonFacts (arrayOfFacts) {
+let newArray = [];
+while (i < arrayOfFacts.length) {
+  newArray.push(arrayOfFacts[i] + "! ! !");
+  }
+  return newArray;
+}
