@@ -15,3 +15,11 @@ while (i < arrayOfFacts.length) {
   }
   return newArray;
 }
+
+function iLoveTheBeatles (num) {
+  let array = [];
+  do {
+  array.push("I love the Beatles!")
+  } while (num < 15);
+return array;
+}
